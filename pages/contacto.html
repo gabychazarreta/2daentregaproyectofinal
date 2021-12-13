@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 
     <title>2da entrega proyecto final</title>
   </head>
@@ -33,56 +33,48 @@
 </div>
 <div>
   <!-------------------fin del header------------->
-  <form>
-  <div class="mb-3">
-    <label for="exampleInputname" class="form-label">Nombre y Apellido</label>
-      <input type="Name" class="form-control" id="exampleInputName" aria-describedby="Name">
-      <div id="NameHelp" class="form-text">nunca le diremos a nadie tu direccion</div>
+<form class="formcontact">
+    <div class="col-md-6">
+    <label for="Name" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="inputName">
   </div>
-  <div class="mb-3">
-  
-      <label for="exampleInputEmail1" class="form-label">Direccion de Mail</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">nunca le diremos a nadie tu direccion</div>
+  <div class="col-md-6">
+    <label for="apellido" class="form-label">Apellido</label>
+    <input type="Apellido" class="form-control" id="inputPassword4">
   </div>
-    <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Default checkbox
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-  <label class="form-check-label" for="flexCheckChecked">
-    Checked checkbox
-  </label>
-</div>   
-    <button type="submit" class="btn btn-primary">Submit</button>
-
-  </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Av Corrientes">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Direccion Laboral</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Trabajo, Estudio , etc">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Provincia</label>
+    <select id="inputState" class="form-select">
+      <option selected>Provincia</option>
+      <option>Bs AS</option>
+      <option>CABA</option>
+      <option>Cordoba</option>
+      <option>Santa Fe</option>
+      <option>La Pampa</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Codigo Postal</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
 
 
 

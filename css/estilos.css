@@ -1,5 +1,9 @@
 
-.bgWallpaper {
-	background-color: black;
-	opacity: all;
+.formcontact {
+	margin: 130px ;
 }
+
+form:focus-within{
+	background-color: #ccc ;
+} 
+
