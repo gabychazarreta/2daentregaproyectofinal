@@ -2,8 +2,8 @@
 .formcontact {
 	margin: 130px ;
 }
+.formcontact :focus-within{
+	background-color: rgb(167, 167, 167);
+}
 
-form:focus-within{
-	background-color: #ccc ;
-} 
 
