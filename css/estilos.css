@@ -1,17 +1,132 @@
-
-.formcontact {
-	margin: 130px ;
-}
-.formcontact :focus-within{
-	background-color: rgb(167, 167, 167);
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;0,900;1,700&display=swap");
+/* line 16, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_tools.scss */
+.red-tw {
+  background-color: #67c3f8;
 }
 
-.presentacion{
-	margin-top: 130px;
+/* line 16, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_tools.scss */
+.red-fb {
+  background-color: #1800ee;
 }
-.table{
-	margin-top: 130px;
+
+/* line 16, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_tools.scss */
+.red-yt {
+  background-color: #fa0000;
 }
-.prensa1{
-	margin-top: 130px;
+
+/* line 16, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_tools.scss */
+.red-lk {
+  background-color: #3e41f1;
 }
+
+/* line 1, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.navbar-brand:hover {
+  transform: scale(2, 2);
+}
+
+/* line 8, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.navbar-nav {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+/* line 11, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.navbar-nav .nav-link:hover {
+  text-decoration: line-through;
+}
+
+/* line 16, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.nav-link active {
+  text-decoration: line-through;
+}
+
+/* line 20, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.img-fluid {
+  margin-top: 6rem;
+}
+
+/* line 24, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.card-title:hover {
+  text-decoration: line-through;
+}
+
+/* line 27, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.card-text:hover {
+  text-decoration: line-through;
+}
+
+/* line 30, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.card-img-top:hover {
+  filter: blur(1px);
+}
+
+/* line 34, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.formContact {
+  padding: 15%;
+  background-color: #a1a1a1;
+  font-family: lato;
+  font-weight: 700;
+}
+
+/* line 39, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.formContact :focus-within {
+  background-color: #2e2e2e;
+  color: #f3f3f3;
+}
+
+/* line 44, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.presentacion {
+  margin-top: 6rem;
+}
+
+/* line 46, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.presentacion :hover {
+  background-color: #2e2e2e;
+  color: #f3f3f3;
+}
+
+/* line 51, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.presentacion h1 {
+  font-family: lato;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+/* line 58, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.presentacion h5 {
+  padding: 01%;
+  box-sizing: border-box;
+  border: 1px solid #797979;
+}
+
+/* line 64, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.container {
+  margin-top: 6rem;
+}
+
+/* line 66, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.container img {
+  width: 100%;
+  padding: 25px;
+}
+
+/* line 69, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.container img:hover {
+  filter: drop-shadow;
+  box-sizing: border-box;
+  border: 1px solid #797979;
+}
+
+/* line 76, C:/Users/WITBOR/OneDrive/Documentos/Coderhouse-desarrollo web/2da entrega proyecto final/scss/_main.scss */
+.carousel-inner {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

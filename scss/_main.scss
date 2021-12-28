@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;
+}
+.navbar-brand:hover{ 
+	transform: scale(2,2);
+}
+.navbar-nav{
+	font-size: 1rem;
+	font-family: sans-serif;
+	.nav-link:hover{
+			text-decoration: line-through; 
+		}
+	
+}			
+.nav-link active{
+	text-decoration: line-through
+	 
+}
+.img-fluid{
+	margin-top: 6rem;
+	
+}
+.card-title:hover{
+	text-decoration: line-through;
+}
+.card-text:hover{
+	text-decoration: line-through;
+}
+.card-img-top:hover{
+	filter: blur(1px);
+	
+}
+.formContact{
+	padding: 15%;
+	background-color: $formBackgroung;
+	font-family: lato;
+	font-weight: 700;
+	:focus-within{
+		background-color: $bgColorDark;
+		color: $ulColor;
+	}
+}
+.presentacion{
+	margin-top: 6rem;
+	:hover{
+		background-color: $bgColorDark;
+		color: $ulColor
+		;
+	}
+	h1{
+		font-family: lato;
+		font-weight: 700;
+		margin-top: 40px;
+		
+		
+	}
+	h5{
+		padding: 01%;
+		box-sizing: border-box;
+		border: 1px solid $ulBackgroung;
+	}
+}
+.container{
+	margin-top: 6rem;
+	img{
+		width: 100%;
+		padding: 25px;
+	&:hover{
+		filter: drop-shadow;
+		box-sizing: border-box;
+		border: 1px solid $ulBackgroung;
+	}
+	}
+}
+.carousel-inner{
+	margin-top: 6rem;
+	width: 100%;
+}
